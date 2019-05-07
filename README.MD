@@ -13,7 +13,8 @@ and the code samples it contains, it seems to target a variant of
 C that is somewhere between K&R traditional C and ANSI C.  
 
 My conversions are mainly those changes needed to adapt the code for
-compilation in gcc on a modern UNIX system. 
+compilation in gcc on a modern UNIX system.  I am also adding make
+files to facilitate easy building.
 
 The program text begins in chapter 3. I will tag each chapter and
 enter notes about page numbers and comments as I go.  My purpose in
