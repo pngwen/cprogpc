@@ -12,8 +12,7 @@ static void do_select(int choice);
 /**
  *  This is the main function of the stock portfolio program.
  */
-int 
-main()
+int main()
 {
     int selection;
 
@@ -31,8 +30,7 @@ main()
  *  This function will display the choices to the user.
  *  The value of the function will be the selection.
  **/
-static int 
-menu()
+static int menu()
 {
     int choice;
 
@@ -64,8 +62,7 @@ menu()
  *  This function will accept a menu choice and call the
  *  appropriate function to carry out the operation.
  */
-static void 
-do_select(int choice)
+static void do_select(int choice)
 {
     if(choice == '1')
         buy();
